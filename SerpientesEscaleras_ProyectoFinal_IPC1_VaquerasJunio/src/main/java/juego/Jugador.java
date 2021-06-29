@@ -17,7 +17,6 @@ public class Jugador extends Fichas {
     private int tableroXF;
     private int tableroYF;
     private int contadorSeis;
-    private InterfazConsola interfaz = new InterfazConsola();
     
     public Jugador(String nombre, int lugar, int posicionX, int posicionY, int tableroXF, int tableroYF) {
         this.nombre = nombre;
