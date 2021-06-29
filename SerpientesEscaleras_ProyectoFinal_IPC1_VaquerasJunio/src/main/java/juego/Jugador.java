@@ -5,11 +5,13 @@
  */
 package juego;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Danny
  */
-public class Jugador extends Fichas {
+public class Jugador extends Fichas implements Serializable{
     private String nombre;
     private int turno;
     private int tableroXI;
@@ -39,18 +41,18 @@ public class Jugador extends Fichas {
                 if(contadorSeis == 3) {
                     posicionX = tableroXI;
                     posicionY = tableroYI;
-                    interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" ha sacado 3 veces seguidas 6. Se le enviara al inicio del tablero.");
+                   
                 }
             } else {
                 contadorSeis = 0;
             }
         } else {
             if (movimientos != 6) {
-                interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" no ha sacado un 6. Por lo cual no se mueve. Ya que habia sacado 3 veces 6");
+                
                 posicionX = tableroXI;
                 posicionY = tableroYI;
             } else {
-                interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" ha sacado un 6. Ahora se puede mover");
+                
                 contadorSeis = 0;
             }
         }
@@ -80,15 +82,13 @@ public class Jugador extends Fichas {
                     if (tableroXF == posicionX && tableroYF > posicionY) {
                         posicionY = posicionAnteriorY;
                         posicionX = posicionAnteriorX;
-                        interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" se ha pasado de la casilla final, por lo cual no se mueve");
+                        
                     }
                 } else {
                     posicionY = posicionY + movimientos;
                 }
-                interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" se ha movido "+movimientosAnterior+" movimientos(s)");
-            } else {
-                 interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" se ha pasado de la casilla final, por lo cual no se mueve");
-            }
+                
+            } 
         } else {
             if (!((posicionY - movimientos < tableroYF) && (posicionX == tableroXF))) {
                 if(posicionY - movimientos < 0) {
@@ -101,15 +101,13 @@ public class Jugador extends Fichas {
                     if (tableroXF == posicionX && tableroYF < posicionY) {
                         posicionY = posicionAnteriorY;
                         posicionX = posicionAnteriorX;
-                        interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" se ha pasado de la casilla final, por lo cual no se mueve");
+                       
                     }
                 } else {
                     posicionY = posicionY - movimientos;
                 }
-                interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" se ha movido "+movimientosAnterior+" movimientos(s)");
-            } else { // Revisar eliminar despues de terminar el proyecto
-                interfaz.mostrarAviso("El jugador("+(turno+1)+") llamado "+nombre+" se ha pasado de la casilla final, por lo cual no se mueve");
-            }
+           
+            } 
         }
         dadoTresVecesSeis(movimientosAnterior);
     }
