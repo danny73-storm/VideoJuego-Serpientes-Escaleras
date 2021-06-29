@@ -113,7 +113,7 @@ public class Juego extends javax.swing.JFrame {
         jButton2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.add(jButton2);
 
-        jButton4.setBackground(new java.awt.Color(0, 204, 204));
+        jButton4.setBackground(new java.awt.Color(0, 204, 0));
         jButton4.setForeground(new java.awt.Color(51, 0, 153));
         jButton4.setText("2");
         jButton4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -179,7 +179,7 @@ public class Juego extends javax.swing.JFrame {
         jButton12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.add(jButton12);
 
-        jButton11.setBackground(new java.awt.Color(0, 204, 204));
+        jButton11.setBackground(new java.awt.Color(0, 204, 0));
         jButton11.setForeground(new java.awt.Color(51, 0, 153));
         jButton11.setText("9");
         jButton11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -203,7 +203,7 @@ public class Juego extends javax.swing.JFrame {
         jButton18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.add(jButton18);
 
-        jButton19.setBackground(new java.awt.Color(0, 204, 204));
+        jButton19.setBackground(new java.awt.Color(0, 204, 0));
         jButton19.setForeground(new java.awt.Color(51, 0, 153));
         jButton19.setText("17");
         jButton19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -227,7 +227,7 @@ public class Juego extends javax.swing.JFrame {
         jButton22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.add(jButton22);
 
-        jButton23.setBackground(new java.awt.Color(0, 204, 204));
+        jButton23.setBackground(new java.awt.Color(0, 204, 0));
         jButton23.setForeground(new java.awt.Color(51, 0, 153));
         jButton23.setText("21");
         jButton23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -281,7 +281,7 @@ public class Juego extends javax.swing.JFrame {
         jButton31.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.add(jButton31);
 
-        jButton32.setBackground(new java.awt.Color(0, 204, 204));
+        jButton32.setBackground(new java.awt.Color(0, 204, 0));
         jButton32.setForeground(new java.awt.Color(51, 0, 153));
         jButton32.setText("30");
         jButton32.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -299,7 +299,7 @@ public class Juego extends javax.swing.JFrame {
         jButton34.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.add(jButton34);
 
-        jButton35.setBackground(new java.awt.Color(0, 204, 204));
+        jButton35.setBackground(new java.awt.Color(0, 204, 0));
         jButton35.setForeground(new java.awt.Color(51, 0, 153));
         jButton35.setText("33");
         jButton35.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -389,7 +389,7 @@ public class Juego extends javax.swing.JFrame {
         jButton49.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.add(jButton49);
 
-        jButton50.setBackground(new java.awt.Color(0, 204, 204));
+        jButton50.setBackground(new java.awt.Color(0, 204, 0));
         jButton50.setForeground(new java.awt.Color(51, 0, 153));
         jButton50.setText("48");
         jButton50.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -413,7 +413,7 @@ public class Juego extends javax.swing.JFrame {
         jButton57.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.add(jButton57);
 
-        jButton56.setBackground(new java.awt.Color(0, 204, 204));
+        jButton56.setBackground(new java.awt.Color(0, 204, 0));
         jButton56.setForeground(new java.awt.Color(51, 0, 153));
         jButton56.setText("54");
         jButton56.setBorder(javax.swing.BorderFactory.createEtchedBorder());
