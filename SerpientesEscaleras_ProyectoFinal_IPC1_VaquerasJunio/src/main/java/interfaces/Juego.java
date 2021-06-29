@@ -13,6 +13,9 @@ public class Juego extends javax.swing.JFrame {
 
     public Juego() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        
+        
     }
 
     @SuppressWarnings("unchecked")
@@ -450,7 +453,7 @@ public class Juego extends javax.swing.JFrame {
 
         jLabel2.setText("Jugadores ");
 
-        jButton65.setText("Salir ");
+        jButton65.setText("Regresar");
         jButton65.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton65MouseClicked(evt);
@@ -530,7 +533,7 @@ public class Juego extends javax.swing.JFrame {
                                         .addGap(31, 31, 31)))
                                 .addGap(0, 4, Short.MAX_VALUE))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGap(18, 18, Short.MAX_VALUE)
                                 .addComponent(jButton65))))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel3)
@@ -629,7 +632,9 @@ public class Juego extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton65ActionPerformed
-        // TODO add your handling code here:
+        MenuPrincipal menu = new MenuPrincipal();
+        menu.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jButton65ActionPerformed
 
     private void jButton65MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton65MouseClicked
